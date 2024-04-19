@@ -30,7 +30,14 @@
   border-style: solid;
   color: white;
 }
+.box.match {
+  background-color: transparent;
+  border-color: green;
+}
 
+.box.match::after {
+  content: 'Yes, I am';
+}
 /* Estilos para el input */
 input {
   width: 50%;
